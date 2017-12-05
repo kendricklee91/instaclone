@@ -1,0 +1,17 @@
+.blue {
+	width : 100px;
+	height : 100px;
+	border : 2px blue solid;
+}
+
+.brown {
+	width : 100px;
+	height : 100px;
+	border : 3px brown dashed;
+}
+
+.black {
+	width : 100px;
+	height : 100px;
+	border : 4px black dotted;
+}
