@@ -5,6 +5,7 @@
 	<title>Instagram Clone</title>
 	<meta charset = "utf-8">
 	<meta description = "instagram clone">
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -12,25 +13,100 @@
 	<!-- Id : 독자적으로 한 곳에서만 사용하고자 할 때 -->
 	
 	<!-- Instagram header -->
-	<header>
-		<div class = "header_container">
-			<div class = "logo_container"></div>
-
-			<div class = "search_container">
-				<div class = "magnifier"></div>
-				<div class = "query"></div>
+	<header class = "header_container">
+		<!-- 왼쪽 인스타그램 로고 -->
+		<div class = "logo_container">
+			<a href = "feed.html">
+				<img src = "img/feed_logo.png" width = "200" height = "50">
+			</a>
+		</div>
+		
+		<!-- 중앙 아이콘 및 검색창 -->
+		<div class = "search_container">
+			<!-- 돋보기 -->
+			<div class = "search_icon">
+				<i class = "fa fa-search"></i> <!-- i : 아이콘 태그 -->
 			</div>
 
-			<div class = "explorer_container">
-				<div class = "explore"></div>
-				<div class = "feed"></div>
-				<div class = "profile"></div>
+			<!-- 검색창 -->
+			<div class = "search_input">
+				<input type = "text" placeholder = "Search" style = "text-align : center">
 			</div>
 		</div>
+		
+		<!-- 오른쪽 3개 아이콘 -->
+		<div class = "explorer_container">
+			<!-- Explore -->
+			<a href = "explore.html">
+				<i class = "fa fa-compass"></i>
+			</a>
+
+			<!-- Likes-->
+			<a href = "likes.html">
+				<i class = "fa fa-heart-o"></i>
+			</a>
+
+			<!-- Profile -->
+			<a href = "profile.html">
+				<i class = "fa fa-user-o"></i>
+			</a>
+		</div>
 	</header>
+
+	<!-- Instagram Main -->
+	<main class = "feed_container">
+		<!-- author info -->
+		<div class = "author_container">
+			<img src = "img/face.jpg">
+			<div class = "author_name">
+				jihyo
+			</div>
+		</div>
 	
-	<!-- Instagram main -->
-	<main></main>
+		<!-- main image-->
+		<div>
+			<img src = "img/photo_main.jpg" width = "400" height = "300">
+		</div>
+
+		<!-- contents container -->
+		<div class = "contents container">
+			<!-- actions -->
+			<div class = "action_container">
+				<i class = "fa fa-heart-o"></i>
+				<i class = "fa fa-comment-o"></i>
+			</div>
+
+			<div></div>
+
+			<!-- Likes numeric -->
+			<span class = "likes_count">
+				<span class = "likes_num">
+					9999
+				</span>
+				Likes
+			</span>
+
+			<!-- comments -->
+			<ul class = "comment_container">
+				<li class = "comment_content">
+					<span class = "comment_author">Sana</span> Cheese kimbob
+				</li>
+
+				<li class = "comment_content">
+					<span class = "comment_author">Eunhee Choi</span> Good company
+				</li>
+			</ul>
+
+			<!-- uploaded time -->
+			<span class = "contents_time">13 hours ago</span>
+
+			<!-- adding comment -->
+			<div class = "addcomment_container">
+				<input type = "text" placeholder = "Add comment here...">
+				<i class = "fa fa-ellipsis-h"></i>
+			</div>
+		</div>
+	</main>
 
 	<!-- Instagram footer -->
 	<footer></footer>
