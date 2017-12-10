@@ -1,0 +1,30 @@
+.foot {
+	margin-top : 150px;
+	display : flex;
+	justify-content : center;
+	align-items : center; 
+}
+
+.list {
+	display : flex;
+	flex-wrap : wrap;
+	list-style: none;
+}
+
+.nav {
+	display : flex;
+}
+
+.items {
+	margin-right : 20px;
+}
+
+.link {
+	color : #385185;
+	text-decoration : none; 
+}
+
+.cr {
+	color : #385185;
+	margin-left : 140px;
+}

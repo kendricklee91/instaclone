@@ -1,0 +1,159 @@
+/* 로그인 페이지 시작 부분 */
+.login_page_start_position {
+	margin-top : 100px;
+	align-items : center;
+	display: flex;
+}
+
+.content_container {
+	-webkit-box-orient : horizontal;
+	-webkit-box-direction : normal;
+	-webkit-box-flex : 1;
+	-webkit-box-pack : center;
+	justify-content : center; 
+	flex-direction : row;
+	margin : 30px auto 0;
+	max-width : 935px;
+	display : flex;
+
+}
+/* 로그인 페이지 왼쪽 핸드폰 사진 제어*/
+#phone_img {
+	width : 330px;
+	height : 500px;
+	margin-right : 55px;
+	width : 100%;
+}
+
+/* 로그인 페이지 오른쪽 정보 입력 제어*/
+.login_info {
+	border : 1px solid #D3D3D3;
+	width : 250px;
+	height : 250px;
+	padding : 25px;
+	/*margin-top : 10px;*/
+	margin-bottom : 20px;
+}
+
+/* 인스타그램 로그 제어 */
+#login_logo {
+	width : 180px;
+	height : 50px;
+	margin-bottom : 15px;
+	margin-left : 30px; 
+}
+
+/* 정보 입력창 제어 */
+.login_input {
+	border : 1px solid #708090;
+	padding : 7px 0px 7px 10px;
+	-webkit-box-sizing : border-box;
+	width : 100%;
+	font-size : 14px;
+	margin-bottom : 7px;
+	background-color: #F5F5F5;
+}
+
+/* 정보 입력 submit 제어 */
+.login_submit {
+	background-color : #1E90FF;
+	width : 250px;
+	height : 23px;
+	color : white;
+	border : none;
+	font-size : 15px; 
+}
+
+/* 수평선 있는 부분 제어 */
+.hrztl {
+	display : flex; 
+	-webkit-box-orient : horizontal;
+	-webkit-box-direction : normal;
+	flex-direction : row;
+	margin : 13px 0 13px 0; /* 위, 오른, 아래, 왼 */
+}
+
+/* 수평선 제어 */
+.hrztl-line {
+	-webkit-box-flex : 1;
+	flex-grow : 1;
+	flex-shrink : 1;
+	background-color : #C7C7C7;
+	height : 1px;
+	position : relative;
+	top : .45em;  
+	width : 95px; 
+}
+
+/* or 제어 */
+.hrztl-text {
+	-webkit-box-flex : 0;
+	flex-grow : 0;
+	flex-shrink : 0;
+	font-size : 15px;
+	font-weight : 600;
+	line-height : 15px;
+	margin : 0 18px;
+	text-transform : uppercase; 
+	color : #999;
+	text-align: center;
+}
+
+.fb-area {
+	margin : 8px 40px; /* (위, 아래), (오른쪽, 왼쪽) */
+	display : block;
+	position : relative;
+}
+
+.fb-icn {
+	color : #385185;
+	margin-right : 5px; 
+}
+
+.fb-txt {
+	font-size : 15px;
+}
+
+.fb-pwd {
+	margin-top : 10px;
+}
+
+.fb-pwd-txt {
+	font-size : 16px; 
+}
+
+.fb-acnt {
+	border : 1px solid #D3D3D3;
+	padding : 20px;
+	/*	margin : 8px 40px; */
+}
+
+.fb-acnt-txt {
+	padding-left : 5px;
+	font-size : 15px;
+	text-align : center;
+	text-decoration : none; 
+}
+
+.use-app {
+	margin-top : 20px;
+}
+
+.use-application {
+	margin-top : 20px;
+	padding-left : 15px;
+}
+
+.use-app-txt {
+	/*text-align : center;*/
+	font-size : 15px;
+	margin : 0px 75px;
+}
+
+.app-apple {
+	float : left;
+}
+
+.app-google {
+	float : right;
+}
