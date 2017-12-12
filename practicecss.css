@@ -1,17 +1,34 @@
-.blue {
-	width : 100px;
-	height : 100px;
-	border : 2px blue solid;
+.boxcontainer {
+	justify-content : flex-start; 
+	display : flex;
 }
 
-.brown {
+.bluebox {
+	box-sizing : border-box;
+	
+	position : absolute; 
+	background-color : blue; 
+	color : black;
 	width : 100px;
 	height : 100px;
-	border : 3px brown dashed;
 }
 
-.black {
+.greenbox {
+	box-sizing : border-box;
+	
+	position : relative;
+	background-color : green;
+	color : black;
 	width : 100px;
 	height : 100px;
-	border : 4px black dotted;
+}
+
+.yellowbox {
+	box-sizing : border-box;
+	
+	position : ;
+	background-color : yellow;
+	color : black;
+	width : 100px;
+	height : 100px;
 }

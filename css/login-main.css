@@ -6,10 +6,12 @@
 }
 
 .content_container {
+	/*
 	-webkit-box-orient : horizontal;
 	-webkit-box-direction : normal;
 	-webkit-box-flex : 1;
 	-webkit-box-pack : center;
+	*/
 	justify-content : center; 
 	flex-direction : row;
 	margin : 30px auto 0;
