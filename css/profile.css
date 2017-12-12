@@ -12,7 +12,7 @@
 	justify-content : center;
 	align-items : center;  
 	display : flex;
-	padding : 0 500px;
+	padding : 0 250px;
 	height : 65px;
 }
 
@@ -32,13 +32,13 @@
 	justify-content : center;
 	display : flex;
 	width : 201px;
-	height : 25px;
+	height : 35px;
 }
 
 #search_glass{
 	margin-right : 10px;
 	margin-left : 3px;
-	margin-top : 4px; 
+	margin-top : 9px; 
 }
 
 #search_input{
@@ -114,6 +114,7 @@
 }
 
 #atc_img_avatar{
+	border-radius : 50%; 
 	height : 152px;
 	width : 152px;
 }
@@ -255,8 +256,8 @@
 
 .photos-area{
 	margin-top : 20px;
-	margin-left : 550px;
-	margin-right : 550px;
+	margin-left : 250px;
+	margin-right : 250px;
 	display : flex;
 	/*
 	-webkit-box-align: stretch;
