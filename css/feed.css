@@ -9,6 +9,10 @@
 	height : 60px;
 }
 
+.overall_container{
+	justify-content : center;
+	display : flex; 
+}
 .search_container{
 	display : flex;
 }
@@ -37,4 +41,80 @@
 	margin-left : 10px;
 	font-size : 28px;
 	color : black;
+}
+
+.feed_container{
+	border : 1px solid #dbdbdb;
+	border-radius : 3px; 
+	margin-top : 80px;
+	width : 602px;
+	max-width : 100%;
+}
+
+.author_container{
+	background-color : white;
+	align-items : center;
+	padding-left : 15px;
+	display : flex;
+	height : 70px;
+}
+
+.author_avatar{
+	border-radius : 50%;
+	height : 50px;
+	width : 50px;
+}
+
+.author_name{
+	margin-left : 15px;
+}
+
+.insta_img{
+	border : 1px solid #dbdbdb;
+	max-width : 600px;
+	height : 600px;
+}
+
+.contents_container{
+	background-color : white;
+	width : 600px;
+	padding : 14px 14px;
+}
+
+.action_container i{
+	margin-right : 10px;
+	font-size : 22px;
+}
+
+.fa-comment-o{
+	padding-bottom : 6px;
+}
+
+.likes_count{
+	margin-top : 2px;
+}
+
+.comment_container{
+	list-style : none; 
+}
+.comment-author{
+	font-weight : 600; 
+}
+
+.contents_time{
+	font-size : 10px;
+	color : #999;
+}
+
+.addcomment_container{
+	margin-top : 15px;
+}
+
+.addcomment_container input{
+	padding-left : 5px;
+	padding-top : 15px;
+	width : 90%;
+	border : none;
+	border-top : 1px solid #dbdbdb;
+	padding-bottom : 10px; 
 }
