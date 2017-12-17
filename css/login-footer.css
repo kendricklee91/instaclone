@@ -7,7 +7,7 @@
 
 .list {
 	display : flex;
-	flex-wrap : wrap;
+	/*flex-wrap : wrap;*/
 	list-style: none;
 }
 
@@ -21,7 +21,8 @@
 
 .link {
 	color : #385185;
-	text-decoration : none; 
+	text-decoration : none;
+	margin-right : 20px; 
 }
 
 .cr {
