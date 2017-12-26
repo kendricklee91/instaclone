@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Instagram Clone</title>
+	<meta charset = "utf-8">
+	<meta description = "instagram clone">
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel = "stylesheet" href = "css/style.css">
+	<script src = "https://code.jquery.com/jquery-3.2.1.min.js" integrity = "sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin = "anonymous"></script>
+	<script src = "js/app.js"></script>
+</head>
+
+<body>
+	<!-- Class : 반복되어 사용하고자 할 때 -->
+	<!-- Id : 독자적으로 한 곳에서만 사용하고자 할 때 -->
+	
+	<!-- Instagram header -->
+	<header class = "header_container">
+		<!-- 왼쪽 인스타그램 로고 -->
+		<div class = "logo_container">
+			<a href = "feed.html">
+				<img src = "img/logo_profile.jpg" width = "200" height = "50">
+			</a>
+		</div>
+		
+		<!-- 중앙 아이콘 및 검색창 -->
+		<div class = "search_container">
+			<!-- 돋보기 -->
+			<div class = "search_icon">
+				<i class = "fa fa-search"></i> <!-- i : 아이콘 태그 -->
+			</div>
+
+			<!-- 검색창 -->
+			<div class = "search_input">
+				<input type = "text" placeholder = "Search" class = "search_content">
+			</div>
+		</div>
+		
+		<!-- 오른쪽 3개 아이콘 -->
+		<div class = "explorer_container">
+			<!-- Explore -->
+			<a href = "explore.html" class = "exp_link">
+				<i class = "fa fa-compass"></i>
+			</a>
+
+			<!-- Likes-->
+			<a href = "likes.html" class = "exp_link">
+				<i class = "fa fa-heart-o"></i>
+			</a>
+
+			<!-- Profile -->
+			<a href = "profile.html" class = "exp_link">
+				<i class = "fa fa-user-o"></i>
+			</a>
+		</div>
+	</header>
+	
+	<div class = "overall_container">
+		<!-- Instagram Main -->
+		<div class = "feed_container">
+			<!-- author info -->
+			<div class = "author_container">
+				<img src = "img/face.jpg" class = "author_avatar">
+				<div class = "author_name">
+					jihyo
+				</div>
+			</div>
+		
+			<!-- main image-->
+			<div>
+				<img src = "img/photo_main.jpg" class = "insta_img">
+			</div>
+
+			<!-- contents container -->
+			<div class = "contents_container">
+				<!-- actions -->
+				<div class = "action_container">
+					<i class = "fa heart fa-heart-o"></i>
+					<i class = "fa fa-comment-o"></i>
+				</div>
+
+				<div></div>
+
+				<!-- Likes numeric -->
+				<span class = "likes_count">
+					<span class = "likes_num">
+						99
+					</span>
+					Likes
+				</span>
+
+				<!-- comments -->
+				<ul class = "comment_container">
+					<li class = "comment_content">
+						<span class = "comment_author">Sana</span> Cheese kimbob
+					</li>
+
+					<li class = "comment_content">
+						<span class = "comment_author">Eunhee Choi</span> Good company
+					</li>
+				</ul>
+
+				<!-- uploaded time -->
+				<span class = "contents_time">13 hours ago</span>
+
+				<!-- adding comment -->
+				<div class = "addcomment_container">
+					<input class = "photo_addcomment_area" type = "text" placeholder = "Add comment here...">
+					<i class = "fa fa-ellipsis-h"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Instagram footer -->
+	<footer></footer>
+</body>
+</html>
